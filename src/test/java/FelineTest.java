@@ -23,4 +23,9 @@ public class FelineTest {
     public void getKittensReturn1() {
         assertEquals(1, feline.getKittens());
     }
+
+    @Test
+    public void getKittensReturn7(){
+        assertEquals(7, feline.getKittens(7));
+    }
 }

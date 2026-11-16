@@ -5,6 +5,7 @@ import org.junit.runners.Parameterized;
 
 import static org.junit.Assert.assertEquals;
 
+/* Мне очень не хочется удалять этот тест, я не очень понял тему параметризации, но пока писал этот тест наконец всё понял)))
 @RunWith(Parameterized.class)
 public class GetKittensTest {
     private final int count;
@@ -28,3 +29,4 @@ public class GetKittensTest {
         assertEquals(expected, feline.getKittens(count));
     }
 }
+*/
