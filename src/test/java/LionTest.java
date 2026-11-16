@@ -30,4 +30,13 @@ public class LionTest {
     public void UnMale() throws Exception {
         Lion lion = new Lion("DDD", feline);
     }
-}
+    @Test
+    public void LionExpectionMessengTest() {
+        try {
+            new Lion("Dog", feline);
+        }
+        catch (Exception exception){
+            assertEquals("Используйте допустимые значения пола животного - самец или самка", exception.getMessage() );
+        }
+        }
+    }
